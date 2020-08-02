@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-attachment: fixed;
+    background-image: url("../imagen/bg-topo1.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #90caf9 ;
+}
+
+.container{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+/* Stilizando Carder */
+.carder{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 300px;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+
+    padding: 10px;
+    border-radius: 10px;
+}
+.carder:hover{
+    box-shadow: 2px 2px 8px black;
+}
+
+.carder figure img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.carder-infos{
+    margin-bottom: 20px;
+}
+
+.carder-desc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.carder-infos p{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14pt;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+
+    color: whitesmoke;
+}
+.carder-infos span{
+    display: block;
+    padding: 5px;
+    padding-left: 40px;
+    width: 300px;
+    height: 27px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-size: 22px;
+}
+
+.carder-redes{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.carder-redes img{
+    width: 30px;
+}
+#nome{
+    background-image: url("../imagen/nm.png");
+}
+#contato{
+    background-image: url('../imagen/ph.png');
+}
+#email{
+    background-image: url('../imagen/em.png');
+}
+/* Finalizando Carder */
+
+/* Stilizando Infos */
+.infos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+
+    padding: 50px;
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+}
+
+.card-icon{
+    display: flex;
+    width: 45%;
+    height: 40%;
+    padding: 20px;
+    margin: 20px;
+
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
+.icon{
+    width: 30%;
+    height: 30%;
+}
+
+.icon-info p{
+    text-align: center;
+}
+/* Finalizando Infos */
+
+/* Estilizando RodaPe */
+.rodape{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+/* Finalizando RodaPe */
